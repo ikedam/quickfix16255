@@ -1,4 +1,4 @@
-quickfix16255
-=============
+Quickfix16255 plugin
+====================
 
-Quickfix plugin for Jenkins-16255
+Quickfix plugin for [JENKINS-16255](https://issues.jenkins-ci.org/browse/JENKINS-16255).
