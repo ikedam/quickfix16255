@@ -28,7 +28,6 @@ import java.io.IOException;
 import java.util.List;
 
 import org.kohsuke.stapler.DataBoundConstructor;
-import org.kohsuke.stapler.lang.Klass;
 
 import hudson.Extension;
 import hudson.model.Computer;
@@ -55,8 +54,7 @@ public class CasedDumbSlave extends Slave
     @Override
     public Computer createComputer()
     {
-        // TODO Auto-generated method stub
-        return super.createComputer();
+        return new CasedSlaveComputer(this);
     }
     
     @Extension
